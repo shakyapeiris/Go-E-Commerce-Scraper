@@ -1,6 +1,7 @@
 package logging
 
 import (
+	"log"
 	"log/slog"
 	"os"
 )
@@ -34,4 +35,8 @@ func Error(msg string, args ...interface{}) {
 
 func Warn(msg string, args ...interface{}) {
 	logging.Warn(msg, args...)
+}
+
+func Fatalln(v ...any) {
+	log.Fatalln(v)
 }
