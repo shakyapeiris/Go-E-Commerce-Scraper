@@ -3,9 +3,9 @@ package main
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
+	"github.com/shakyapeiris/e-commerce-scraper/api"
+	"github.com/shakyapeiris/e-commerce-scraper/logging"
 	"net/http"
-	"octopusbi.com/e-commerce-platform/api"
-	"octopusbi.com/e-commerce-platform/logging"
 )
 
 func ping(c *gin.Context) {

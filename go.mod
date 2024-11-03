@@ -1,4 +1,4 @@
-module octopusbi.com/e-commerce-platform
+module github.com/shakyapeiris/e-commerce-scraper
 
 go 1.23.2
 

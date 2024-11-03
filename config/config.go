@@ -2,8 +2,8 @@ package config
 
 import (
 	"fmt"
-	"octopusbi.com/e-commerce-platform/logging"
-	"octopusbi.com/e-commerce-platform/models"
+	"github.com/shakyapeiris/e-commerce-scraper/logging"
+	"github.com/shakyapeiris/e-commerce-scraper/models"
 	"os"
 	"strconv"
 )

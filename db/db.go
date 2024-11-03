@@ -3,8 +3,8 @@ package db
 import (
 	"database/sql"
 	"github.com/jmoiron/sqlx"
-	"octopusbi.com/e-commerce-platform/config"
-	"octopusbi.com/e-commerce-platform/logging"
+	"github.com/shakyapeiris/e-commerce-scraper/config"
+	"github.com/shakyapeiris/e-commerce-scraper/logging"
 )
 
 var db *sqlx.DB
